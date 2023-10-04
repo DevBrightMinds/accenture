@@ -4,7 +4,7 @@ This is the app api - it will give access to the DB and whatever datas tha can b
 # Getting Started | Build and Test
 TODO: 
 1.  First make sure yo have nodejs installed and MySQL installed on your machine - if not download them and set them up (you could use any DB but you would also need to configure some parts of the project)
-2.  Open your mysql workbench and run the code on line 18 & 19-23, 24-29  respectively - in a new query - 18 will create your app DB, 19-23 will create the table you need while 24-39 will add your brands to the table
+2.  Open your mysql workbench and run the code on line 16 & 17-21, 22-37  respectively - in a new query - 16 will create your app DB, 17-21 will create the table you need while 22-37 will add your brands to the table
 3.	Open the api folder as a seperate project on your prefered editor - say vscode
 4.	Run 'npm install' to install the packages defined in the package.json file
 5.	Then 'npm run dev' to run this project locally, it will run on port 5500, else you could define by opening the app.ts file and changing the port on line 15
