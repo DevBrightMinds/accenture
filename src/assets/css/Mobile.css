@@ -67,6 +67,13 @@
 
     section .case-study-card {
         width: 100% !important;
+        margin: 10px !important;
+    }
+
+    section .case-studies-cards {
+        display: grid !important;
+        justify-content: unset !important;
+        width: 95% !important;
     }
 
     section .for-good-company h4 {

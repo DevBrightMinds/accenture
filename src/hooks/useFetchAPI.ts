@@ -9,8 +9,8 @@ export const useFetchAPI = () => {
         return axios.post(url);
     }
 
-    const get = async () => {
-        return axios.get(url);
+    const get = async (endpoint?: string) => {
+        return axios.get(endpoint ? endpoint : url);
 
     }
 
