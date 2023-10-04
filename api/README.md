@@ -11,7 +11,7 @@ TODO:
     you can also get the build files should you want to host this on a live server by runnng the npm run build - then open the dist folder to see the build files
     you may also test the build app by navigating to the dist folder, cd dist - then running 'npm run start'
 6.	To run a test, open postman or use this address on your browser and postman http://localhost:5500/Brands/GetBrands
-
+7.  You will need to ofcourse modify the .env file as per your settings - else the DB connections will fail
 
 CREATE DATABASE `accenture` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 CREATE TABLE `brands` (
