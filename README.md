@@ -3,10 +3,11 @@ This is the app front end - it depict the entire homepage as defined on the figm
 Please assure that you have nodejs installed - if not download and install now
 # Getting Started
 TODO: 
-1.  Open this project on your preferred editor - say vscode
-2.  Open the CMD either from vscode or by clicking your start menu and search for CMD - and make sure pointing to this project directory
-3.  Once CMD is running, run the 'npm install' to install the packages that make up this app
-4.  Now, run 'npm start' to launch the project locally
+1.  Open the api directory first, configure and run it as per the guidelines
+2.  Open this project on your preferred editor - say vscode
+3.  Open the CMD either from vscode or by clicking your start menu and search for CMD - and make sure pointing to this project directory
+4.  Once CMD is running, run the 'npm install' to install the packages that make up this app
+5.  Now, run 'npm start' to launch the project locally
 
 
 # Additional Notes

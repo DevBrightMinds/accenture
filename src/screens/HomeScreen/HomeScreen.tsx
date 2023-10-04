@@ -30,7 +30,7 @@ export const HomeScreen: React.FC<{}> = (): JSX.Element => {
         fetchCaseStudies();
     }, []);
 
-    // and obviosuly there could be error handling involved here
+    // and obviously there could be error handling involved here
     // if status isn't 200 - you wanna say something
     // but since this is a 'simple website' we not going to look into that
     // hoping its allowed, atleast for now :)
@@ -52,13 +52,10 @@ export const HomeScreen: React.FC<{}> = (): JSX.Element => {
 
     const getBrands = async () => {
         const results: any = await get(ApiURL.MainAPIURL + EndPoints.Brands.GetBrands);
-
-        if (!results.Error) {
             console.log(results);
             // this will result in brands being returned from the api
             // however, in a real project - we would keep the brand images in a server somewhere
             // since we do not have that here, we will continue to use the same setup on keeping the brands on this project
-        }
     }
 
     return <>
@@ -86,7 +83,7 @@ export const HomeScreen: React.FC<{}> = (): JSX.Element => {
                      */}
 
                     {/* IT WASN'T VERY CLEAR TO ME WHAT HAVING THE CASE STUDIES AS A SLIDER MEANT, SO I ADDED A SLIDESHOW */}
-                    {/* COMMENT LINE 79 IF YOU WANT TO RUN THE SLIDESHOW AND UNCOMMENT LINE 74-78 */}
+                    {/* COMMENT LINE 93 IF YOU DO NOT WANT TO RUN THE SLIDESHOW AND UNCOMMENT LINE 88-92 */}
 
                     {/* <div className="case-studies-cards" style={{ display: "flex", justifyContent: "space-between" }}>
                         {CaseStudies.length > 0 ? CaseStudies.map((study: ICaseStudy, index: number) => {
