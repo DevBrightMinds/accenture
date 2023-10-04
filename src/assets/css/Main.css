@@ -1,0 +1,323 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/inter/Inter-Regular.woff");
+    src: url("../fonts/inter/Inter-Regular.woff2") format("woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+/* app header */
+header .app-header-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #70259B;
+}
+
+header .app-header-content {
+    padding: 10px;
+}
+
+header .app-header-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .app-header-content .app-nav-menu ul {
+    display: flex;
+}
+
+header .app-header-content .app-nav-menu ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+header .app-header-content .app-nav-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .lets-talk-btn button {
+    color: #70259B;
+    font-weight: bold;
+}
+
+header .app-mobile-nav-btn .bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 4px;
+}
+
+header .app-mobile-nav-btn {
+    padding: 10px 0px 0px 0px;
+    cursor: pointer;
+    display: none;
+}
+
+/* app header */
+
+
+/* app main banner */
+section {
+    color: #000000;
+}
+
+section .app-main-banner {
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/confidence.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-color: #000000;
+}
+
+section .app-main-banner .banner-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20% 0 0 0;
+    color: #ffffff !important;
+}
+
+section .app-main-banner .banner-content button {
+    background: #70259B !important;
+    border: none;
+    color: #ffffff;
+}
+
+section .app-main-banner .banner-content p:first-child {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+section .app-main-banner .banner-content p {
+    margin: 10px 0 10px 0;
+}
+
+/* app main banner */
+
+
+/* main-container */
+section .main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.band-container {
+    display: block;
+    margin: 20px;
+}
+
+.band-container small {
+    padding-left: 20px;
+}
+
+/* main-container */
+
+
+/* what we do & what we do card */
+section .for-what-we-do h4 {
+    font-size: 55px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+section .app-what-we-do-content {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .app-what-we-do-content .what-we-do-card .card-header {
+    display: grid;
+    box-shadow: unset !important;
+}
+
+section .app-what-we-do-content .what-we-do-card {
+    width: 20%;
+    overflow: hidden;
+}
+
+section .app-what-we-do-content .what-we-do-card .card-header-name p {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+section .app-what-we-do-content .what-we-do-card .card-header-image,
+section .app-what-we-do-content .what-we-do-card .card-header-name {
+    margin: 30px 0 30px 0;
+}
+
+/* for what we do & what we do card */
+
+/* case studies & case study card */
+section .slider {
+    display: flex;
+    justify-content: center;
+}
+
+section .slide-position {
+    text-align: center;
+    background: purple;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+section .card-overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(32 31 31 / 85%) 100%);
+}
+
+section .slide-controls .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: block;
+    margin: 5px;
+    background-color: #70259B;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+section .slide-controls {
+    display: flex;
+    justify-content: center;
+}
+
+section .case-study-card {
+    width: 30%;
+    height: 486px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin: 20px;
+    overflow: hidden;
+    overflow-x: auto;
+    color: #ffffff;
+    display: none;
+}
+
+section .slide-active {
+    display: block !important;
+}
+
+section .dot-active {
+    background-color: #be7ee4 !important;
+}
+
+section .case-study-card p {
+    margin: 10px 20px 20px 20px;
+}
+
+section .case-study-card h4 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px 20px 0px 20px;
+    padding: 60% 0 0 0;
+}
+
+/* case studies & case study card */
+
+/* slider Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* slider Fading animation */
+
+
+/* good company */
+section .good-company-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+    margin: 20px;
+}
+
+section .good-company-content .brand {
+    height: 120px;
+    width: 256px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+}
+
+section .for-good-company h4 {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* good company */
+
+/* footer */
+footer {
+    background-color: #301042;
+    color: #ffffff;
+    padding: 30px 30px 10px 0px;
+}
+
+footer .app-footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .footer-mid-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+footer .footer-mid-item .mid-item-container h4 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+footer .footer-mid-item .mid-item-container a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+footer .footer-mid-item .mid-item-container:first-child {
+    width: 35%;
+}
+
+footer .lower-contents {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+footer .lower-contents .lower-items ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* footer */

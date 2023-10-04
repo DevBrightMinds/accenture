@@ -2,10 +2,9 @@
 
 # dependencies
 /node_modules
-/.vs/slnx.sqlite
 /.pnp
 .pnp.js
-.firebaseConfig.json
+
 # testing
 /coverage
 

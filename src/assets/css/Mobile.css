@@ -1,0 +1,112 @@
+/* most tablets sizes are up to 1024 - else we would need a seperate media query to cater for bigger screens */
+
+@media screen and (max-width: 1024px) {
+    header .app-mobile-nav-btn {
+        display: block;
+    }
+
+    header .app-header-contents {
+        width: 100%;
+    }
+
+    header .app-nav-menu {
+        display: none;
+        position: fixed;
+        left: 0;
+        background: #70259B;
+        width: 100%;
+        top: 60px;
+        transform: translate(0px, 0px);
+        z-index: 100;
+    }
+
+    header .app-header-content .app-nav-menu ul {
+        display: grid;
+    }
+
+    header .app-nav-menu-in-display header .app-header-contents {
+        width: 100%;
+        position: relative;
+    }
+
+    section .app-main-banner {
+        position: relative;
+        height: 440px;
+    }
+
+    section .app-main-banner .banner-content {
+        width: 90%;
+        position: absolute;
+        margin: 20px;
+        bottom: 20px;
+        z-index: 10;
+    }
+
+    section .app-main-banner .banner-content p:first-child {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    section .main-container {
+        width: 100%;
+    }
+
+    section .for-what-we-do h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    section .app-what-we-do-content {
+        display: grid;
+    }
+
+    section .app-what-we-do-content .what-we-do-card {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    section .case-study-card {
+        width: 100% !important;
+    }
+
+    section .for-good-company h4 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    section .good-company-content .brand {
+        width: 100%;
+    }
+
+
+    footer .footer-mid-item .mid-item-container h4 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    footer .footer-mid-item .mid-item-container:first-child {
+        width: unset !important;
+    }
+
+    footer .footer-mid-item .mid-item-container:last-child {
+        padding: 40px 0 0 0;
+    }
+
+    footer .footer-mid-item {
+        display: grid;
+        margin: 20px;
+    }
+
+    footer .app-footer-content {
+        width: 100%;
+    }
+
+    footer .lower-contents {
+        display: grid;
+        margin: 20px;
+    }
+
+    footer .lower-contents .lower-items {
+        margin: 20px 20px 20px 0px;
+    }
+}
